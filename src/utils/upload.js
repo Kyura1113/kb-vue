@@ -23,11 +23,11 @@ const OssCredentials = {
 function initOssClient(accessKeyId, accessKeySecret, expiration) {
 	console.log(bucket[`${env}`])
 	client = new OSS({
-		endpoint: 'oss-cn-chengdu.aliyuncs.com',
+		endpoint: '',
 		//secure: true,
 		accessKeyId,
 		accessKeySecret,
-		region: 'oss-cn-chengdu',
+		region: '',
 		bucket: bucket[`${env}`]
 	});
 	expirationTime = expiration
