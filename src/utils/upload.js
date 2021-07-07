@@ -7,16 +7,16 @@ let client = null
 let expirationTime = null
 
 const bucket = {
-	development: 'kyu-blog-bucket',
-	dev: 'kyu-blog-bucket',
-	pre: 'kyu-blog-bucket',
-	beta: 'kyu-blog-bucket',
-	production: 'kyu-blog-bucket'
+	development: '',
+	dev: '',
+	pre: '',
+	beta: '',
+	production: ''
 }
 
 const OssCredentials = {
-	AccessKeyID: 'LTAI4GAwcxuzNTpQwcJqhysw',
-	AccessKeySecret: '5VaOpLrAH8q7UKkruCTUuisKWV2c7L',
+	AccessKeyID: '',
+	AccessKeySecret: '',
 	ExpirationTime: 5 * 60 * 1000,
 }
 
